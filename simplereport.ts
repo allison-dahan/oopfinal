@@ -1,13 +1,14 @@
 import IReport from "./report";
+import Map from "./Map";
+
 export default class SimpleReport implements IReport{
-    public name: String;
+    public name: Map;
 
-
-    constructor(name: string){
+    constructor(name: Map){
         this.name = name;
     }
 
-    printDetails() {
+    printDetails():string {
         
     }
 

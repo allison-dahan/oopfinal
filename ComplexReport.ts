@@ -1,8 +1,10 @@
 import IReport from "./report";
-export default class ComplexReport implements IReport{
-    public name: String;
+import Map from "./Map"
 
-    constructor(name: string){
+export default class ComplexReport implements IReport{
+    public name: Map;
+
+    constructor(name: Map){
         this.name = name;
     }
 

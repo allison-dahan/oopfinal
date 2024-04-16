@@ -50,7 +50,3 @@ at minimum:
   A getCurrentWaitTime method, which returns a number in minutes representing how long the average wait is for that clinic's queue. Wait time is calculated by the following:
 
 - Your program must contain a variable called currentIntake, which will contain a minimum bound for the age you must be to get your shot. 
-
-# oopfinal
-# oopfinal
-# oopfinal

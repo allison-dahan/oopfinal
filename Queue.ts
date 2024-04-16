@@ -6,12 +6,12 @@ type QueueElement<T> = {
 
 export default class PriorityQueue<T> {
 
-    constructor() {
-        this.items = People[];
+    constructor(people: People[]) {
+        this.people = people;
     }
     private items: Array<QueueElement<T>> = [];
 
-    enqueue(people){
+    enqueue(people: People[]){
         const queueElement: QueueElement<T> = { element }
 
     };

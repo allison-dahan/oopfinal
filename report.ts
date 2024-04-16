@@ -1,6 +1,8 @@
-export default interface IReport {
-    name: String;
+import Map from "./Map";
 
-    printDetails():
+export default interface IReport {
+    name: Map;
+
+    printDetails(): string
 
 }
